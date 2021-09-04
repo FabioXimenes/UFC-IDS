@@ -3,4 +3,4 @@
 
 * [Módulo 1](https://github.com/FabioXimenes/UFC-IDS/tree/main/Modulo%201)
 * [Módulo 2](https://github.com/FabioXimenes/UFC-IDS/tree/main/Modulo%202)
-* Módulo 3 (em breve)
+* [Módulo 3](https://github.com/FabioXimenes/UFC-IDS/tree/main/Modulo%203)
