@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Câmbio <= 0.2\nmse = 2067463959.0\nsamples = 32113\nvalue = 57624.5", fillcolor="#fae5d6"] ;
+1 [label="Combustível <= 0.1\nmse = 3011112744.3\nsamples = 12010\nvalue = 90629.7", fillcolor="#f4cbad"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Ano <= 0.7\nmse = 3369221252.2\nsamples = 2001\nvalue = 158220.1", fillcolor="#e99558"] ;
+1 -> 2 ;
+3 [label="mse = 1234315735.4\nsamples = 693\nvalue = 110115.1", fillcolor="#f1bb94"] ;
+2 -> 3 ;
+4 [label="mse = 2682863472.5\nsamples = 1308\nvalue = 182622.2", fillcolor="#e58139"] ;
+2 -> 4 ;
+5 [label="Ano <= 0.7\nmse = 1819932317.2\nsamples = 10009\nvalue = 76880.7", fillcolor="#f6d6be"] ;
+1 -> 5 ;
+6 [label="mse = 891513564.2\nsamples = 4406\nvalue = 53044.4", fillcolor="#fae9dc"] ;
+5 -> 6 ;
+7 [label="mse = 1751815438.4\nsamples = 5603\nvalue = 95627.6", fillcolor="#f3c7a7"] ;
+5 -> 7 ;
+8 [label="Ano <= 0.7\nmse = 463495012.1\nsamples = 20103\nvalue = 37900.4", fillcolor="#fdf5ef"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="motor <= 0.2\nmse = 242444105.1\nsamples = 11502\nvalue = 27960.6", fillcolor="#fffdfc"] ;
+8 -> 9 ;
+10 [label="mse = 121456076.2\nsamples = 10712\nvalue = 25443.7", fillcolor="#ffffff"] ;
+9 -> 10 ;
+11 [label="mse = 640308503.6\nsamples = 790\nvalue = 61732.6", fillcolor="#f9e2d1"] ;
+9 -> 11 ;
+12 [label="motor <= 0.2\nmse = 450997438.6\nsamples = 8601\nvalue = 51143.4", fillcolor="#fbeadf"] ;
+8 -> 12 ;
+13 [label="mse = 168172897.6\nsamples = 8159\nvalue = 47821.9", fillcolor="#fbede3"] ;
+12 -> 13 ;
+14 [label="mse = 1703903191.5\nsamples = 442\nvalue = 112573.8", fillcolor="#f1b991"] ;
+12 -> 14 ;
+}
